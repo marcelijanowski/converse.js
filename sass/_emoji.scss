@@ -78,6 +78,9 @@
                         height: 32px;
                         width: 32px;
 
+                        &.selected {
+                            background-color: var(--highlight-color);
+                        }
                         &.picked {
                             background-color: var(--highlight-color);
                         }
@@ -111,6 +114,9 @@
                             background-color: white;
                             border: 1px var(--chat-head-color) solid;
                             border-bottom: none;
+                        }
+                        &.selected {
+                            background-color: var(--highlight-color);
                         }
                         padding: 0.25em;
                         font-size: var(--font-size-huge);
